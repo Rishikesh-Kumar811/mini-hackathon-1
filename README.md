@@ -6,10 +6,10 @@
   <br />
 
   <div align="center">
-    <img src="https://img.shields.io/badge/Vite-646CFF?style=flat&logo=vite&logoColor=white" alt="Vite" height="30" /> &nbsp;
-    <img src="https://img.shields.io/badge/React-20232A?style=flat&logo=react&logoColor=61DAFB" alt="React" height="30" /> &nbsp;
-    <img src="https://img.shields.io/badge/Tailwind_CSS-38B2AC?style=flat&logo=tailwind-css&logoColor=white" alt="TailwindCSS" height="30" /> &nbsp;
-    <img src="https://img.shields.io/badge/JavaScript-323330?style=flat&logo=javascript&logoColor=F7DF1E" alt="JavaScript" height="30" />
+    <img src="https://badgen.net/badge/icon/Vite?icon=vite&color=646CFF" alt="Vite" height="28" /> &nbsp;
+    <img src="https://badgen.net/badge/icon/React?icon=react&color=20232A" alt="React" height="28" /> &nbsp;
+    <img src="https://badgen.net/badge/icon/Tailwind?icon=tailwindcss&color=38B2AC" alt="TailwindCSS" height="28" /> &nbsp;
+    <img src="https://badgen.net/badge/icon/Redux?icon=redux&color=764ABC" alt="Redux" height="28" />
   </div>
   
 </div>
@@ -26,13 +26,14 @@
 ## ✨ Key Features & UI/UX Highlights
 This repository is built with a strict focus on modern web standards, beautiful responsive design, and high performance.
 
-- **Rapid Prototyping Architecture**: Built under strict time constraints, proving the ability to deliver high-quality React code rapidly.
-- **Tailwind Utility Engine**: Heavily optimized utility classes preventing CSS bloat and maintaining a pristine UI.
-- **Component Reusability**: Highly modular React components designed to be reused across different views.
+- **Advanced State Management**: Engineered with Redux Toolkit for predictable, centralized application state handling across complex components.
+- **Persistent Local Caching**: Integrated Redux Persist alongside LocalForage (IndexedDB) for robust offline capabilities and instant data retrieval upon reload.
+- **Tailwind v4 Utility Engine**: Heavily optimized utility classes preventing CSS bloat and maintaining a pristine UI, utilizing the latest Tailwind features.
+- **Performance Virtualization**: Implemented `react-window` and `@tanstack/react-virtual` to smoothly render massive datasets without DOM lag.
 
 ## 🧠 Architecture & Technical Logic
 **Why this stack?**  
-The project demonstrates agile engineering. By leveraging Vite's esbuild bundler and Tailwind's JIT compiler, the development environment is optimized for maximum speed without sacrificing code quality or runtime performance.
+The project demonstrates agile engineering for data-heavy applications. By leveraging Vite's esbuild bundler and Redux for state, the architecture is optimized for maximum rendering speed and maintainability.
 
 The project emphasizes a clean directory structure, separation of concerns, and maintainable styles, serving as a testament to scalable frontend engineering.
 
@@ -61,5 +62,5 @@ npm run dev
 <div align="center">
   <i>Engineered with focus and precision.</i> <br/>
   <br/>
-  <img src="https://img.shields.io/badge/Built_with-Love-ff69b4?style=flat" height="32" />
+  <img src="https://badgen.net/badge/Built%20with/Love/ff69b4?icon=heart" height="28" />
 </div>
