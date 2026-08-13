@@ -1,6 +1,6 @@
 <div align="center">
 
-<br/>
+<br/><br/>
 
 <h1>⚡ Finance Tracker Pro</h1>
 
@@ -10,13 +10,15 @@
 
 A high-performance finance tracker built with React 19, Redux Toolkit, and offline-first IndexedDB persistence — featuring DOM virtualization for rendering 10,000+ transactions at 60fps.
 
-<br/>
+<br/><br/>
 
 <p align="center">
   <a href="https://www.rishifintrack.dev/"><img src="https://img.shields.io/badge/▶_Live_Demo-000000?style=for-the-badge&logo=vercel&logoColor=white" alt="Live Demo" /></a>&nbsp;
   <a href="https://github.com/Rishikesh-Kumar811/mini-hackathon-1/issues"><img src="https://img.shields.io/badge/Report_Bug-e11d48?style=for-the-badge" alt="Report Bug" /></a>&nbsp;
   <a href="https://github.com/Rishikesh-Kumar811/mini-hackathon-1/issues"><img src="https://img.shields.io/badge/Request_Feature-8B5CF6?style=for-the-badge" alt="Request Feature" /></a>
 </p>
+
+<br/>
 
 </div>
 
