@@ -2,7 +2,7 @@
 
 <br/>
 
-# ⚡ Finance Tracker Pro
+<h1>⚡ Finance Tracker Pro</h1>
 
 ### Offline-First Finance App with Redux & Virtualization
 
