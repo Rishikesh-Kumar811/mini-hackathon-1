@@ -1,6 +1,6 @@
-<div align="center">
+<img width="100%" src="https://capsule-render.vercel.app/api?type=waving&color=0:0d1117,100:1a1a2e&height=120&section=header" />
 
-<br/>
+<div align="center">
 
 # ⚡ Finance Tracker Pro
 
@@ -64,10 +64,16 @@ npm run dev
 
 <div align="center">
 
-**[⬆ Back to Top](#⚡-finance-tracker-pro)**
+<br/>
+
+**[⬆ Back to Top](#finance-tracker-pro)**
 
 <br/>
 
-<img src="https://badgen.net/badge/Built%20with%20%E2%99%A5//ff69b4?label&labelColor=ff69b4" alt="Built with Love" height="40" />
+<a href="https://github.com/Rishikesh-Kumar811/mini-hackathon-1/stargazers"><img src="https://img.shields.io/github/stars/Rishikesh-Kumar811/mini-hackathon-1?style=for-the-badge&color=f5a623&label=Star%20this%20Repo" alt="Stars" /></a>
+
+<sub>Built with ♥ by <a href="https://github.com/Rishikesh-Kumar811">Rishikesh</a></sub>
 
 </div>
+
+<img width="100%" src="https://capsule-render.vercel.app/api?type=waving&color=0:0d1117,100:1a1a2e&height=120&section=footer" />
