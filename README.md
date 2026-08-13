@@ -6,10 +6,10 @@
   <br />
 
   <div align="center">
-    <img src="https://img.shields.io/badge/Vite-646CFF?style=flat&logo=vite&logoColor=white" alt="Vite" /> &nbsp;
-    <img src="https://img.shields.io/badge/React-20232A?style=flat&logo=react&logoColor=61DAFB" alt="React" /> &nbsp;
-    <img src="https://img.shields.io/badge/Tailwind_CSS-38B2AC?style=flat&logo=tailwind-css&logoColor=white" alt="TailwindCSS" /> &nbsp;
-    <img src="https://img.shields.io/badge/JavaScript-323330?style=flat&logo=javascript&logoColor=F7DF1E" alt="JavaScript" />
+    <img src="https://img.shields.io/badge/Vite-646CFF?style=flat&logo=vite&logoColor=white" alt="Vite" height="30" /> &nbsp;
+    <img src="https://img.shields.io/badge/React-20232A?style=flat&logo=react&logoColor=61DAFB" alt="React" height="30" /> &nbsp;
+    <img src="https://img.shields.io/badge/Tailwind_CSS-38B2AC?style=flat&logo=tailwind-css&logoColor=white" alt="TailwindCSS" height="30" /> &nbsp;
+    <img src="https://img.shields.io/badge/JavaScript-323330?style=flat&logo=javascript&logoColor=F7DF1E" alt="JavaScript" height="30" />
   </div>
   
 </div>
@@ -19,7 +19,7 @@
 ## 📸 Visuals & Live Demo
 *(Placeholder: Insert a beautiful screenshot or GIF of the UI here to demonstrate the application working in a production environment).*
 
-> **[View Live Demo](https://mini-hackathon-1.vercel.app) | [Report Bug](https://github.com/Rishikesh-Kumar811/mini-hackathon-1/issues) | [Request Feature](https://github.com/Rishikesh-Kumar811/mini-hackathon-1/issues)**
+> **[View Live Demo](https://www.rishifintrack.dev/) | [Report Bug](https://github.com/Rishikesh-Kumar811/mini-hackathon-1/issues) | [Request Feature](https://github.com/Rishikesh-Kumar811/mini-hackathon-1/issues)**
 
 ---
 
@@ -60,5 +60,6 @@ npm run dev
 
 <div align="center">
   <i>Engineered with focus and precision.</i> <br/>
-  <img src="https://img.shields.io/badge/Built_with-Love-ff69b4?style=flat" />
+  <br/>
+  <img src="https://img.shields.io/badge/Built_with-Love-ff69b4?style=flat" height="32" />
 </div>
