@@ -1,36 +1,35 @@
-# 💸 FinTrack - Modern Expense Tracker
-
-A fast, lightweight, and modern expense tracking application built for the **Sheryians Coding School Mini Hackathon**. The main objective of this project was to independently explore and implement **Redux Toolkit** from scratch.
-
-## 🚀 Live Demo & Documentation
-- **Live Project:** [https://rishifintrack.dev/](https://rishifintrack.dev/)
-- **Complete Redux Master Guide:** [Notion Documentation](https://round-doom-f43.notion.site/Redux_Master_Guide-3acd654721728106a193c33ad4803757?source=copy_link)
-
-## ✨ Key Features & Optimizations
-- **Redux Toolkit (v2.12.0) State Management:** Completely powered by RTK (Store, Slices, Actions, Reducers).
-- **React 19 Native SEO:** Leverages React 19's native metadata hoisting (no third-party helmet libraries) with JSON-LD structured schema.
-- **Zero-Lag Performance (INP Optimized):** Utilizes React 19's `useTransition` and `startTransition` along with RTK `createSelector` memoization to ensure typing and heavy state updates run flawlessly on low-end devices.
-- **GPU-Accelerated Animations:** Custom 4-stage staggered delete animations using Tailwind `transform-gpu` for a buttery-smooth experience.
-- **Modern UI Architecture:** Clean, DRY (Don't Repeat Yourself) components built with the latest Tailwind CSS v4.3.3.
-- **LocalStorage Sync:** Data is never lost on refresh. The Redux store automatically syncs with the browser's local storage.
-
-## 🛠️ Tech Stack (2026 Standards)
-- **Frontend:** React 19.2.8 (Vite)
-- **State Management:** Redux Toolkit 2.12.0 (`react-redux`, `@reduxjs/toolkit`)
-- **Styling:** Tailwind CSS 4.3.3
-- **Icons:** Lucide React
-
-## 💡 What I Learned
-Through this hackathon and subsequent optimizations, I learned how to avoid "Prop Drilling" by setting up a centralized Redux Store, utilizing `createSelector` for performance, and managing concurrent rendering features like `useTransition` in modern React to ensure maximum UI responsiveness.
-
----
-
-### ⏳ A Note on the Hackathon Journey
-> [!NOTE]
-> *This project was built with immense passion for the **Sheryians Coding School Mini Hackathon**. Due to an unforeseen 2-day delay in my schedule, I couldn't officially submit this in time to participate. However, the true victory was independently mastering Redux Toolkit and pushing my boundaries. The learning never stops!* 🚀
-
----
 <div align="center">
-  <b>Built with ❤️ by Rishikesh Kumar</b><br>
-  <i>"Sometimes the best projects are the ones we build for ourselves."</i>
+  <img src="https://badgen.net/badge/-/Mini%20Hackathon/4f46e5?scale=2.5&label=" alt="Banner Badge" />
+  
+  <br />
+  <br />
+
+  # 🌟 Mini Hackathon
+  **Rapid prototyping and modern frontend.** <br/>
+  A fast-paced development challenge demonstrating rapid prototyping using Vite and Tailwind CSS.
+  
+  <br />
+
+  <img src="https://badgen.net/badge/-/Vite?icon=vite&color=646CFF&scale=1.5&label=" /> &nbsp;
+  <img src="https://badgen.net/badge/-/React?icon=react&color=61DAFB&scale=1.5&label=" /> &nbsp;
+  <img src="https://badgen.net/badge/-/TailwindCSS?icon=tailwindcss&color=06B6D4&scale=1.5&label=" /> &nbsp;
+  <img src="https://badgen.net/badge/-/JavaScript?icon=javascript&color=F7DF1E&scale=1.5&label=" />
+  
+</div>
+
+---
+
+## ✨ Overview
+This repository contains the source code for **Mini Hackathon**. It is built with a strict focus on modern web standards, beautiful responsive design, and high performance.
+
+## 🚀 Usage
+1. Clone the repository: `git clone https://github.com/Rishikesh-Kumar811/mini-hackathon-1.git`
+2. Open the project in your favorite IDE.
+3. Run the development server (or open `index.html` directly).
+
+---
+
+<div align="center">
+  <i>Designed with focus and precision.</i> <br/>
+  <img src="https://badgen.net/badge/Built%20with/Love/ff69b4?scale=1.5" />
 </div>
