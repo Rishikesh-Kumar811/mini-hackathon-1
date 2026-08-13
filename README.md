@@ -24,7 +24,7 @@ A high-performance finance tracker built with React 19, Redux Toolkit, and offli
 
 <br/>
 
-<h2 align="center">🛠️ Tech Stack</h2>
+<h3 align="center">🛠️ Tech Stack</h3>
 
 <p align="center">
   <img src="https://skillicons.dev/icons?i=react,redux,tailwind,vite" alt="Tech Stack" />
@@ -32,7 +32,7 @@ A high-performance finance tracker built with React 19, Redux Toolkit, and offli
 
 <br/>
 
-<h2 align="center">✨ Features</h2>
+<h3 align="center">✨ Features</h3>
 
 | 🎯 Core Feature | ✨ Technical Implementation |
 | :--- | :--- |
@@ -45,13 +45,13 @@ A high-performance finance tracker built with React 19, Redux Toolkit, and offli
 
 <br/>
 
-<h2 align="center">🏗️ Architecture</h2>
+<h3 align="center">🏗️ Architecture</h3>
 
 > Normalized Redux Entity pattern with offline-first data pipeline. Vite 8 + React 19 SPA with esbuild bundling optimized for maximum rendering speed.
 
 <br/>
 
-<h2 align="center">🚀 Quick Start</h2>
+<h3 align="center">🚀 Quick Start</h3>
 
 \`\`\`bash
 # Clone the repository
