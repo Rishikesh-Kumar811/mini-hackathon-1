@@ -34,12 +34,14 @@ A high-performance finance tracker built with React 19, Redux Toolkit, and offli
 
 <h2 align="center">✨ Features</h2>
 
-- 🏪 **Redux Toolkit State Management** — Centralized, predictable state with `createEntityAdapter` for O(1) collection lookups
-- 💾 **Offline-First IndexedDB Caching** — Redux Persist + LocalForage pipeline ensuring zero data loss even without internet
-- ⚡ **DOM Virtualization** — `react-window` + `@tanstack/react-virtual` rendering 10K+ rows without DOM lag
-- 🎨 **Tailwind CSS v4** — Latest utility-first framework with `@tailwindcss/vite` plugin for instant JIT compilation
-- 🛡️ **React Error Boundaries** — Graceful error recovery with `ErrorBoundary.jsx` preventing full-page crashes
-- ✨ **Animated Micro-Interactions** — Custom `AnimatedDeleteButton.jsx` with smooth transition effects
+| 🎯 Core Feature | ✨ Technical Implementation |
+| :--- | :--- |
+| 🏪 **Redux Toolkit State Management** | Centralized, predictable state with `createEntityAdapter` for O(1) collection lookups |
+| 💾 **Offline-First IndexedDB Caching** | Redux Persist + LocalForage pipeline ensuring zero data loss even without internet |
+| ⚡ **DOM Virtualization** | `react-window` + `@tanstack/react-virtual` rendering 10K+ rows without DOM lag |
+| 🎨 **Tailwind CSS v4** | Latest utility-first framework with `@tailwindcss/vite` plugin for instant JIT compilation |
+| 🛡️ **React Error Boundaries** | Graceful error recovery with `ErrorBoundary.jsx` preventing full-page crashes |
+| ✨ **Animated Micro-Interactions** | Custom `AnimatedDeleteButton.jsx` with smooth transition effects |
 
 <br/>
 
