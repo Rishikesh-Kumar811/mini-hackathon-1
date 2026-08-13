@@ -1,16 +1,10 @@
 <div align="center">
 
-<br/><br/>
-
 <h1>⚡ Finance Tracker Pro</h1>
 
 ### Offline-First Finance App with Redux & Virtualization
 
-<br/>
-
 A high-performance finance tracker built with React 19, Redux Toolkit, and offline-first IndexedDB persistence — featuring DOM virtualization for rendering 10,000+ transactions at 60fps.
-
-<br/><br/>
 
 <p align="center">
   <a href="https://www.rishifintrack.dev/"><img src="https://img.shields.io/badge/▶_Live_Demo-000000?style=for-the-badge&logo=vercel&logoColor=white" alt="Live Demo" /></a>&nbsp;
@@ -18,19 +12,13 @@ A high-performance finance tracker built with React 19, Redux Toolkit, and offli
   <a href="https://github.com/Rishikesh-Kumar811/mini-hackathon-1/issues"><img src="https://img.shields.io/badge/Request_Feature-8B5CF6?style=for-the-badge" alt="Request Feature" /></a>
 </p>
 
-<br/>
-
 </div>
-
-<br/>
 
 <h2 align="center">🛠️ Tech Stack</h2>
 
 <p align="center">
   <img src="https://skillicons.dev/icons?i=react,redux,tailwind,vite" alt="Tech Stack" />
 </p>
-
-<br/>
 
 <h2 align="center">✨ Features</h2>
 
@@ -43,13 +31,9 @@ A high-performance finance tracker built with React 19, Redux Toolkit, and offli
 | 🛡️ **React Error Boundaries** | Graceful error recovery with `ErrorBoundary.jsx` preventing full-page crashes |
 | ✨ **Animated Micro-Interactions** | Custom `AnimatedDeleteButton.jsx` with smooth transition effects |
 
-<br/>
-
 <h2 align="center">🏗️ Architecture</h2>
 
 > Normalized Redux Entity pattern with offline-first data pipeline. Vite 8 + React 19 SPA with esbuild bundling optimized for maximum rendering speed.
-
-<br/>
 
 <h2 align="center">🚀 Quick Start</h2>
 
@@ -64,11 +48,7 @@ cd mini-hackathon-1 && npm install
 npm run dev
 \`\`\`
 
-<br/>
-
 <div align="center">
-
-<br/>
 
 <h3>Built with ❤️ by <a href="https://github.com/Rishikesh-Kumar811">Rishikesh</a></h3>
 
