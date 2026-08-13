@@ -1,66 +1,73 @@
 <div align="center">
-  # 🌟 Mini Hackathon
-  **Rapid prototyping and modern frontend.** <br/>
-  A fast-paced development challenge demonstrating rapid prototyping using Vite and Tailwind CSS.
-  
-  <br />
 
-  <div align="center">
-    <img src="https://badgen.net/badge/Vite/%20/646CFF?icon=vite&labelColor=646CFF" alt="Vite" height="36" /> &nbsp;
-    <img src="https://badgen.net/badge/React/%20/20232A?icon=react&labelColor=20232A" alt="React" height="36" /> &nbsp;
-    <img src="https://badgen.net/badge/TailwindCSS/%20/38B2AC?icon=tailwindcss&labelColor=38B2AC" alt="TailwindCSS" height="36" /> &nbsp;
-    <img src="https://badgen.net/badge/Redux/%20/764ABC?icon=redux&labelColor=764ABC" alt="Redux" height="36" />
-  </div>
-  
+<br/>
+
+# Finance Tracker Pro
+
+### Offline-First Finance App with Redux & Virtualization
+
+<br/>
+
+A high-performance finance tracker built with React 19, Redux Toolkit, and offline-first IndexedDB persistence — featuring DOM virtualization for rendering 10,000+ transactions at 60fps.
+
+<br/>
+
+<p align="center">
+  <a href="https://www.rishifintrack.dev/"><img src="https://img.shields.io/badge/▶_LIVE_DEMO-000000?style=for-the-badge&logo=vercel&logoColor=white" alt="Live Demo" /></a>&nbsp;
+  <a href="https://github.com/Rishikesh-Kumar811/mini-hackathon-1/issues"><img src="https://img.shields.io/badge/🐛_REPORT_BUG-FF4444?style=for-the-badge" alt="Report Bug" /></a>&nbsp;
+  <a href="https://github.com/Rishikesh-Kumar811/mini-hackathon-1/issues"><img src="https://img.shields.io/badge/✨_REQUEST_FEATURE-8B5CF6?style=for-the-badge" alt="Request Feature" /></a>
+</p>
+
 </div>
 
 ---
 
-## 📸 Visuals & Live Demo
-*(Placeholder: Insert a beautiful screenshot or GIF of the UI here to demonstrate the application working in a production environment).*
+## 🛠️ Tech Stack
 
-> **[View Live Demo](https://www.rishifintrack.dev/) | [Report Bug](https://github.com/Rishikesh-Kumar811/mini-hackathon-1/issues) | [Request Feature](https://github.com/Rishikesh-Kumar811/mini-hackathon-1/issues)**
-
----
-
-## ✨ Key Features & UI/UX Highlights
-This repository is built with a strict focus on modern web standards, beautiful responsive design, and high performance.
-
-- **Advanced State Management**: Engineered with Redux Toolkit for predictable, centralized application state handling across complex components.
-- **Persistent Local Caching**: Integrated Redux Persist alongside LocalForage (IndexedDB) for robust offline capabilities and instant data retrieval upon reload.
-- **Tailwind v4 Utility Engine**: Heavily optimized utility classes preventing CSS bloat and maintaining a pristine UI, utilizing the latest Tailwind features.
-- **Performance Virtualization**: Implemented `react-window` and `@tanstack/react-virtual` to smoothly render massive datasets without DOM lag.
-
-## 🧠 Architecture & Technical Logic
-**Why this stack?**  
-The project demonstrates agile engineering for data-heavy applications. By leveraging Vite's esbuild bundler and Redux for state, the architecture is optimized for maximum rendering speed and maintainability.
-
-The project emphasizes a clean directory structure, separation of concerns, and maintainable styles, serving as a testament to scalable frontend engineering.
+<p align="center">
+  <img src="https://skillicons.dev/icons?i=react,redux,tailwind,vite" alt="Tech Stack" />
+</p>
 
 ---
 
-## 🚀 Quick Start (DevEx)
-To get this project running locally on your machine in seconds:
+## ✨ Features
 
-```bash
-# 1. Clone the repository
+- 🏪 **Redux Toolkit State Management** — Centralized, predictable state with `createEntityAdapter` for O(1) collection lookups
+- 💾 **Offline-First IndexedDB Caching** — Redux Persist + LocalForage pipeline ensuring zero data loss even without internet
+- ⚡ **DOM Virtualization** — `react-window` + `@tanstack/react-virtual` rendering 10K+ rows without DOM lag
+- 🎨 **Tailwind CSS v4** — Latest utility-first framework with `@tailwindcss/vite` plugin for instant JIT compilation
+- 🛡️ **React Error Boundaries** — Graceful error recovery with `ErrorBoundary.jsx` preventing full-page crashes
+- ✨ **Animated Micro-Interactions** — Custom `AnimatedDeleteButton.jsx` with smooth transition effects
+
+---
+
+## 🏗️ Architecture
+
+> Normalized Redux Entity pattern with offline-first data pipeline. Vite 8 + React 19 SPA with esbuild bundling optimized for maximum rendering speed.
+
+---
+
+## 🚀 Quick Start
+
+\`\`\`bash
+# Clone the repository
 git clone https://github.com/Rishikesh-Kumar811/mini-hackathon-1.git
 
-# 2. Navigate into the directory
-cd mini-hackathon-1
+# Navigate & install
+cd mini-hackathon-1 && npm install
 
-# 3. Install dependencies (if applicable)
-npm install
-
-# 4. Start the development server
-npm run dev 
-# (Or simply open index.html in your browser for pure HTML/JS projects)
-```
+# Start the dev server
+npm run dev
+\`\`\`
 
 ---
 
 <div align="center">
-  <i>Engineered with focus and precision.</i> <br/>
-  <br/>
-  <img src="https://badgen.net/badge/Built%20with/%20/ff69b4?icon=heart&labelColor=ff69b4" height="36" />
+
+**[⬆ Back to Top](#finance-tracker-pro)**
+
+<br/>
+
+<img src="https://img.shields.io/badge/BUILT_WITH-❤️-ff69b4?style=for-the-badge" alt="Built with Love" />
+
 </div>
