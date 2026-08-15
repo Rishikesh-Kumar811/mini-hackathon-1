@@ -1,67 +1,161 @@
 <div align="center">
 
-<h1>⚡ Finance Tracker Pro</h1>
+# ⚡ FinTrack Mini — React 19 + Redux Toolkit Financial Dashboard & 🌐 Live Demo
 
-### Offline-First Finance App with Redux & Virtualization
+**A high-velocity, reactive financial management web application built with React 19, Redux Toolkit state architecture, Tailwind CSS, and Vite featuring micro-animated transaction controls and real-time ledger metrics.**
 
-A high-performance finance tracker built with React 19, Redux Toolkit, and offline-first IndexedDB persistence — featuring DOM virtualization for rendering 10,000+ transactions at 60fps.
+<br/>
 
-<p align="center">
-  <a href="https://www.rishifintrack.dev/"><img src="https://img.shields.io/badge/▶_Live_Demo-000000?style=for-the-badge&logo=vercel&logoColor=white" alt="Live Demo" /></a>&nbsp;
-  <a href="https://github.com/Rishikesh-Kumar811/mini-hackathon-1/issues"><img src="https://img.shields.io/badge/Report_Bug-e11d48?style=for-the-badge" alt="Report Bug" /></a>&nbsp;
-  <a href="https://github.com/Rishikesh-Kumar811/mini-hackathon-1/issues"><img src="https://img.shields.io/badge/Request_Feature-8B5CF6?style=for-the-badge" alt="Request Feature" /></a>
-</p>
+<a href="https://www.rishifintrack.dev/" target="_blank"><img src="https://img.shields.io/badge/LIVE_DEMO-FINTRACK_MINI-0070F3?style=for-the-badge&logo=vercel&logoColor=white" alt="Live Demo" /></a>&nbsp;&nbsp;&nbsp;&nbsp;<a href="https://github.com/Rishikesh-Kumar811/mini-hackathon-1" target="_blank"><img src="https://img.shields.io/badge/GITHUB-REPOSITORY-24292e?style=for-the-badge&logo=github&logoColor=white" alt="GitHub Repository" /></a>
+
+<br/><br/>
 
 </div>
 
+---
+
+## 🛠️ Tech Stack
+
 <br/>
 
-<h2 align="center">🛠️ Tech Stack</h2>
-
 <p align="center">
-  <img src="https://skillicons.dev/icons?i=react,redux,tailwind,vite" alt="Tech Stack" />
+  <img src="https://skillicons.dev/icons?i=react,redux,vite,tailwind,js,html,css,vercel,vscode,git,github" alt="Tech Stack" />
 </p>
 
 <br/>
 
-<h2 align="center">✨ Features</h2>
-
-| 🎯 Core Feature | ✨ Technical Implementation |
-| :--- | :--- |
-| 🏪 **Redux Toolkit State Management** | Centralized, predictable state with `createEntityAdapter` for O(1) collection lookups |
-| 💾 **Offline-First IndexedDB Caching** | Redux Persist + LocalForage pipeline ensuring zero data loss even without internet |
-| ⚡ **DOM Virtualization** | `react-window` + `@tanstack/react-virtual` rendering 10K+ rows without DOM lag |
-| 🎨 **Tailwind CSS v4** | Latest utility-first framework with `@tailwindcss/vite` plugin for instant JIT compilation |
-| 🛡️ **React Error Boundaries** | Graceful error recovery with `ErrorBoundary.jsx` preventing full-page crashes |
-| ✨ **Animated Micro-Interactions** | Custom `AnimatedDeleteButton.jsx` with smooth transition effects |
+| Layer | Technologies & Modern Standards | Implementation in Codebase |
+| :--- | :--- | :--- |
+| **UI Framework** | **React 19** • Functional Components • Hooks | Modern component hierarchy (`DashboardStats`, `TransactionForm`, `TransactionList`, `AnimatedDeleteButton`), React hooks lifecycle, and modular UI structure. |
+| **State Architecture** | **Redux Toolkit (`@reduxjs/toolkit`)** • Immer | Centralized global store (`store.js`), dedicated `transactionSlice.js`, type-safe reducers, and predictable immutable state updates. |
+| **Styling & Icons** | **Tailwind CSS** • **PostCSS** • **Lucide Icons** | Utility-first styling pipeline, responsive flex/grid layouts, micro-interaction transitions, and scalable vector icons. |
+| **Build & Tooling** | **Vite** • **Vercel** • **Git** • **GitHub** | Next-generation Vite bundler with instant Hot Module Replacement (HMR), PostCSS transformation, and Vercel edge hosting. |
 
 <br/>
 
-<h2 align="center">🏗️ Architecture</h2>
+---
 
-> Normalized Redux Entity pattern with offline-first data pipeline. Vite 8 + React 19 SPA with esbuild bundling optimized for maximum rendering speed.
+## ✨ Key Features
 
 <br/>
 
-<h2 align="center">🚀 Quick Start</h2>
+### 1. 🔄 Centralized Redux State Management Pipeline
+- **Predictable State Mutations**: Structured `transactionSlice` handling actions for adding, deleting, and updating financial line items.
+- **Derived Financial Metrics**: Real-time selectors computing net balance, total credits, and total debits across the entire ledger.
+- **Unidirectional Data Flow**: Strict decoupling of presentation components from state mutations ensuring clean architecture.
 
-\`\`\`bash
-# Clone the repository
+### 2. 🗑️ Animated Interactive Delete Confirmation UX
+- **Micro-Interaction Polish**: Custom `AnimatedDeleteButton.jsx` providing visual feedback during destructive operations.
+- **Accidental Deletion Prevention**: Built-in interactive confirmation states preventing accidental ledger modifications.
+- **Hardware-Accelerated Transitions**: Smooth opacity and transform animations maintaining 120FPS rendering performance.
+
+### 3. 🛡️ Resilient Component Error Boundary & Input Validation
+- **Graceful Error Recovery**: Custom `ErrorBoundary.jsx` isolating UI runtime exceptions without crashing the full application tree.
+- **Form Sanitization**: Dedicated `validation.js` utility ensuring non-empty titles, valid decimal amounts, and valid categories before dispatching actions.
+
+### 4. 📈 Dynamic KPI Dashboard Statistics
+- **Live Summary Cards**: Instant numerical visualizers for Current Balance, Inflow, and Outflow with dynamic conditional badge styling.
+- **Real-Time Feed**: Responsive `TransactionList.jsx` rendering chronological entries with category badges and timestamps.
+
+<br/>
+
+---
+
+## 📁 Project Directory Structure
+
+<br/>
+
+<details>
+<summary><b>Click to expand project tree</b></summary>
+
+```ascii
+mini-hackathon-1/
+├── index.html
+├── package.json
+├── package-lock.json
+├── postcss.config.js
+├── tailwind.config.js
+├── vite.config.js
+├── public/
+│   ├── favicon.svg
+│   └── icons.svg
+├── src/
+│   ├── App.jsx
+│   ├── index.css
+│   ├── main.jsx
+│   ├── assets/
+│   │   ├── hero.png
+│   │   ├── react.svg
+│   │   └── vite.svg
+│   ├── components/
+│   │   ├── AnimatedDeleteButton.jsx
+│   │   ├── DashboardStats.jsx
+│   │   ├── ErrorBoundary.jsx
+│   │   ├── TransactionForm.jsx
+│   │   ├── TransactionList.jsx
+│   │   └── ui/
+│   │       └── InputField.jsx
+│   ├── redux/
+│   │   ├── store.js
+│   │   └── transactionSlice.js
+│   └── utils/
+│       └── validation.js
+└── README.md
+```
+
+</details>
+
+<br/>
+
+---
+
+## ⚡ Engineering Highlights
+
+- **Modern React 19 Foundation**: Leverages the latest React paradigms for optimal component rendering.
+- **Clean Redux Store Architecture**: Demonstrates clean separation of concerns and scalable state management.
+- **Production-Ready Bundle**: Minified, tree-shaken asset bundle generated via Vite for instant web delivery.
+
+<br/>
+
+---
+
+## 🚀 Quick Start & Local Setup
+
+### 1. Clone the repository
+```bash
 git clone https://github.com/Rishikesh-Kumar811/mini-hackathon-1.git
+cd mini-hackathon-1
+```
 
-# Navigate & install
-cd mini-hackathon-1 && npm install
+### 2. Install dependencies
+```bash
+npm install
+```
 
-# Start the dev server
+### 3. Run development server
+```bash
 npm run dev
-\`\`\`
+```
+
+Visit `http://localhost:5173` in your web browser.
+
+### 4. Build for production
+```bash
+npm run build
+```
 
 <br/>
+
+---
+
+## 👨‍💻 Author & Connect
+
+| Developer | Portfolio / Profile | Live Platform |
+| :--- | :--- | :--- |
+| **Rishikesh Kumar** | [@Rishikesh-Kumar811](https://github.com/Rishikesh-Kumar811) | [FinTrack Mini Dashboard](https://www.rishifintrack.dev/) |
+
+---
 
 <div align="center">
-
-<h3>Built with ❤️ by <a href="https://github.com/Rishikesh-Kumar811">Rishikesh</a></h3>
-
+  <sub>Engineered with precision by Rishikesh Kumar • 2026 Spec</sub>
 </div>
-
-<img width="100%" src="https://capsule-render.vercel.app/api?type=waving&color=0:0d1117,100:1a1a2e&height=120&section=footer" />
