@@ -6,7 +6,7 @@
 
 <br/>
 
-<a href="https://www.rishifintrack.dev/" target="_blank"><img src="https://img.shields.io/badge/LIVE_DEMO-FINTRACK_MINI-0070F3?style=for-the-badge&logo=vercel&logoColor=white" alt="Live Demo" /></a>&nbsp;&nbsp;&nbsp;&nbsp;<a href="https://github.com/Rishikesh-Kumar811/mini-hackathon-1" target="_blank"><img src="https://img.shields.io/badge/GITHUB-REPOSITORY-24292e?style=for-the-badge&logo=github&logoColor=white" alt="GitHub Repository" /></a>
+<a href="https://www.rishifintrack.dev/" target="_blank"><img src="https://img.shields.io/badge/LIVE_DEMO-FINTRACK_MINI-0070F3?style=for-the-badge&logo=vercel&logoColor=white" alt="Live Demo" /></a>&nbsp;&nbsp;&nbsp;&nbsp;<a href="https://round-doom-f43.notion.site/Redux_Master_Guide-3acd654721728106a193c33ad4803757?source=copy_link" target="_blank"><img src="https://img.shields.io/badge/NOTION_DOCS-REDUX_MASTER_GUIDE-000000?style=for-the-badge&logo=notion&logoColor=white" alt="Notion Redux Master Guide" /></a>&nbsp;&nbsp;&nbsp;&nbsp;<a href="https://github.com/Rishikesh-Kumar811/mini-hackathon-1" target="_blank"><img src="https://img.shields.io/badge/GITHUB-REPOSITORY-24292e?style=for-the-badge&logo=github&logoColor=white" alt="GitHub Repository" /></a>
 
 <br/><br/>
 
@@ -30,6 +30,29 @@
 | **State Architecture** | **Redux Toolkit (`@reduxjs/toolkit`)** • Immer | Centralized global store (`store.js`), dedicated `transactionSlice.js`, type-safe reducers, and predictable immutable state updates. |
 | **Styling & Icons** | **Tailwind CSS** • **PostCSS** • **Lucide Icons** | Utility-first styling pipeline, responsive flex/grid layouts, micro-interaction transitions, and scalable vector icons. |
 | **Build & Tooling** | **Vite** • **Vercel** • **Git** • **GitHub** | Next-generation Vite bundler with instant Hot Module Replacement (HMR), PostCSS transformation, and Vercel edge hosting. |
+
+<br/>
+
+---
+
+## 📚 Redux Master Guide & Architecture Docs
+
+<br/>
+
+> [!TIP]
+> ### 📖 Interactive Project Documentation on Notion
+> A comprehensive architectural master guide has been crafted specifically for this project to explain every aspect of its state management and data flow.
+> 
+> 🔗 **[Read the Redux Master Guide on Notion](https://round-doom-f43.notion.site/Redux_Master_Guide-3acd654721728106a193c33ad4803757?source=copy_link)**
+
+<br/>
+
+### 🔍 Key Areas Covered in the Notion Guide:
+- **🔄 Global State Lifecycle**: Step-by-step breakdown of how user actions dispatch to reducers and update the centralized ledger.
+- **⚡ Redux Toolkit (`@reduxjs/toolkit`) Slice Architecture**: Complete explanation of `transactionSlice.js` design patterns, reducers, and initial state setup.
+- **🛡️ Predictable Immutable Updates**: How Immer simplifies complex state modifications without manual cloning.
+- **📊 Derived Financial Metrics**: Best practices for real-time selector queries computing totals and category balances.
+- **💡 Clean Code & Integration Recipes**: Practical patterns for connecting presentation components with custom UI hooks and error boundaries.
 
 <br/>
 
@@ -150,9 +173,9 @@ npm run build
 
 ## 👨‍💻 Author & Connect
 
-| Developer | Portfolio / Profile | Live Platform |
-| :--- | :--- | :--- |
-| **Rishikesh Kumar** | [@Rishikesh-Kumar811](https://github.com/Rishikesh-Kumar811) | [FinTrack Mini Dashboard](https://www.rishifintrack.dev/) |
+| Developer | Portfolio / Profile | Live Platform | Architecture Guide |
+| :--- | :--- | :--- | :--- |
+| **Rishikesh Kumar** | [@Rishikesh-Kumar811](https://github.com/Rishikesh-Kumar811) | [FinTrack Mini Dashboard](https://www.rishifintrack.dev/) | [Notion Redux Master Guide](https://round-doom-f43.notion.site/Redux_Master_Guide-3acd654721728106a193c33ad4803757?source=copy_link) |
 
 ---
 
